@@ -26,3 +26,30 @@ lightdm theme
 
 just use manjaro i3 lolol
 --stuff to add: conky, picom, polybar, fish
+
+packages:
+alacritty
+cmatrix
+feh
+firefox
+fish/omf
+flatpak
+base-devel
+gtop
+htop
+pamac stuff
+neofetch
+neovim
+node
+picom
+polybar
+ranger
+rofi
+tmux
+vi
+vifm
+vscode
+spotify
+discord
+yay
+
