@@ -3,6 +3,7 @@
 Where I put my Linux config stuff
 
 WIP:
+
 * Need to set up scripting automation
 * Alacritty and Picom are not condensed
 * See about changin the names of the symlinks
