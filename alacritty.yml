@@ -92,52 +92,49 @@ window:
     #history: 10000
     # Scrolling distance multiplier.
     #multiplier: 3
-    
+
 # Font configuration
 font:
-# Normal (roman) font face  
+  # Normal (roman) font face  
   normal:
-# Font family
-#
-# Default:
-#   - (macOS) Menlo
-#   - (Linux/BSD) monospace
-#   - (Windows) Consolas
+    # Font family
+    #
+    # Default:
+    #   - (macOS) Menlo
+    #   - (Linux/BSD) monospace
+    #   - (Windows) Consolas
     family: JetBrains Mono
-# The `style` can be specified to pick a specific face.
+    # The `style` can be specified to pick a specific face.
     style: Regular
 
-# Bold font face
-#bold:
-# Font family
-#
-# If the bold family is not specified, it will fall back to the
-# value specified for the normal font.
-#family: monospace
-# The `style` can be specified to pick a specific face.
-#style: Bold
-
-# Italic font face
-#italic:
-# Font family
-#
-# If the italic family is not specified, it will fall back to the
-# value specified for the normal font.
-#family: monospace
-# The `style` can be specified to pick a specific face.
-#style: Italic
-
-# Bold italic font face
-#bold_italic:
-# Font family
-#
-# If the bold italic family is not specified, it will fall back to the
-# value specified for the normal font.
-#family: monospace
-# The `style` can be specified to pick a specific face.
-#style: Bold Italic
-
-# Point size
+  # Bold font face
+  #bold:
+  # Font family
+  #
+  # If the bold family is not specified, it will fall back to the
+  # value specified for the normal font.
+  #family: monospace
+  # The `style` can be specified to pick a specific face.
+  #style: Bold
+  # Italic font face
+  #italic:
+  # Font family
+  #
+  # If the italic family is not specified, it will fall back to the
+  # value specified for the normal font.
+  #family: monospace
+  # The `style` can be specified to pick a specific face.
+  #style: Italic
+  # Bold italic font face
+  #bold_italic:
+  # Font family
+  #
+  # If the bold italic family is not specified, it will fall back to the
+  # value specified for the normal font.
+  #family: monospace
+  # The `style` can be specified to pick a specific face.
+  #style: Bold Italic
+  # Point size
   size: 11.0
 
 # Offset is the extra space around each character. `offset.y` can be thought
@@ -807,35 +804,32 @@ font:
 #log_level: Warn
 # Print all received window events.
 #print_events: false
-
 # colors inserted by alacritty-themes
 colors:
-  # Default colors
+  name: Monokai (dark)
+  author: Chris Kempson
   primary:
-    background: '#282c34'
-    foreground: '#abb2bf'
-
-  # Normal colors
+    background: "#272822"
+    foreground: "#f8f8f2"
+  cursor:
+    text: "#272822"
+    cursor: "#f8f8f2"
   normal:
-    # NOTE: Use '#131613' for the `black` color if you'd like to see
-    # black text on the background.
-    black: '#282c34'
-    red: '#e06c75'
-    green: '#98c379'
-    yellow: '#d19a66'
-    blue: '#61afef'
-    magenta: '#c678dd'
-    cyan: '#56b6c2'
-    white: '#abb2bf'
-
-  # Bright colors
+    black: "#272822"
+    red: "#f92672"
+    green: "#a6e22e"
+    yellow: "#f4bf75"
+    blue: "#66d9ef"
+    magenta: "#ae81ff"
+    cyan: "#a1efe4"
+    white: "#f8f8f2"
   bright:
-    black: '#5c6370'
-    red: '#e06c75'
-    green: '#98c379'
-    yellow: '#d19a66'
-    blue: '#61afef'
-    magenta: '#c678dd'
-    cyan: '#56b6c2'
-    white: '#ffffff'
-theme: One-Dark
+    black: "#75715e"
+    red: "#f92672"
+    green: "#a6e22e"
+    yellow: "#f4bf75"
+    blue: "#66d9ef"
+    magenta: "#ae81ff"
+    cyan: "#a1efe4"
+    white: "#f9f8f5"
+theme: Monokai.dark

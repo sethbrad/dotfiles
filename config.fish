@@ -1,7 +1,7 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
-    set BROWSER '/usr/bin/firefox'
-	  set EDITOR '/usr/bin/nvim'
+    set BROWSER '/usr/bin/brave'
+    set EDITOR '/usr/bin/nvim'
 
     alias exa "exa --long --header --git"
 
